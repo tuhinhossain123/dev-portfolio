@@ -22,6 +22,13 @@ h1 {
 
 }
 
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
 .half-width {
     width: 50%;
     padding-bottom: 5%;
@@ -38,9 +45,42 @@ h1 {
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 10px 30px;
     color: white;
     font-weight: 700;
 
+}
+
+.Experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px grey;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, tomato);
+    border-image-slice: 1;
+
+}
+
+footer {
+    text-align: center;
 }
